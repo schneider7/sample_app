@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 body {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 section {
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 24pt;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -131,3 +131,12 @@ input {
     color: $state-danger-text;
   }
 }
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.btn, .btn-lg, .btn-primary {
+  background-image: linear-gradient(to bottom right, #78cd70, #00703c);
+}
+

@@ -1,14 +1,15 @@
 <div class="center jumbotron">
-  <h1>Welcome to my page.</h1>
+  <h1 style="font-size: 3.2em">Sycamore Education</h1>
 
   <h2>
-    This is the home page for
-    <a href="https://www.michaelschneider.me/"> my </a>
-    adventures in Ruby on Rails.
+    My name is <a href="https://www.michaelschneider.me/"> Michael </a>. I'm working with
+    <a href="https://sycamoreeducation.com">Sycamore Education</a>
+    this summer and I'm creating this sample app with Rails to try some things out. 
   </h2>
+  
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %> </br></br>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+<%= link_to image_tag("sycamore_leaf.jpg", height: '40', width: '40', alt: "Sycamore Leaf"),
+            'http://sycamoreeducation.com/' %>
+
 </div>
-
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
