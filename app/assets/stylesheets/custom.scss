@@ -30,6 +30,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  padding-top: 40px;
 }
 
 h2 {
@@ -140,3 +141,18 @@ input {
   background-image: linear-gradient(to bottom right, #78cd70, #00703c);
 }
 
+.users {
+  list-style: georgian;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    // border-bottom: 1px solid #00703c;
+    border-bottom: 1px solid #00703c;
+  }
+}
+
+header li {
+  color: #ffffff;
+
+}
