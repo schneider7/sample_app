@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/michael-schneider3/github_webhooks
+  revision: c31fbc9a646b22a3f7198751c05ad0311b1b9dbb
+  specs:
+    github_webhooks (0.1.0)
+      rails (~> 5.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -226,6 +233,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   faker
+  github_webhooks!
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)

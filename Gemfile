@@ -13,6 +13,10 @@ gem 'rails-ujs'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+
+gem 'github_webhooks', git: 'https://github.com/michael-schneider3/github_webhooks'
+
+
 # Use Puma as the app server
 
 gem 'puma', '~> 3.11'
