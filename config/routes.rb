@@ -12,6 +12,5 @@ Rails.application.routes.draw do
   resources :users
 
   mount GithubWebhooks::Engine, at: "/github_webhooks"
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
 end

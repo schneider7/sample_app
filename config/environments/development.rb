@@ -1,4 +1,6 @@
 Rails.application.configure do
+
+  ENV.update YAML.load_file("#{Rails.root.to_s}/config/env.yml")[Rails.env]
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
