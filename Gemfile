@@ -14,7 +14,6 @@ gem 'rails-ujs'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-gem 'octokit', '~> 4.0'
 
 # Use Puma as the app server
 
