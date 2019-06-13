@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   delete '/logout',  to: 'sessions#destroy'
   resources :users
 
-  mount GithubWebhooks::Engine, at: "/github_webhooks"
-
+  mount GitHooks::Engine, at: "/git_hooks"
+  # mount GithubWebhooks::Engine, at: "/github_webhooks"
+  # mount CardShark::Engine, at: "/cardshark"
 end
