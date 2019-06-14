@@ -1,6 +1,8 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  ENV.update YAML.load_file("#{Rails.root.to_s}/config/env.yml")[Rails.env]
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
