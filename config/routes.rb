@@ -11,4 +11,4 @@ Rails.application.routes.draw do
   resources :users
 
   mount GitHooks::Engine, at: "/git_hooks"
-endh
+end
