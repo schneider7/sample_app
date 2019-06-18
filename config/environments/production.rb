@@ -3,6 +3,8 @@ Rails.application.configure do
 
   ENV.update YAML.load_file("#{Rails.root.to_s}/config/env.yml")[Rails.env]
 
+  config.serve_static_assets = true
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -96,4 +98,3 @@ Rails.application.configure do
 end
 
 
-config.serve_static_assets = true
