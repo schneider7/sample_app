@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/michael-schneider3/GitHooks
-  revision: f306e880e33f08e0e08b9bbf69d4d01750cabbce
+  revision: a4f8356dc6f71f91f90ee8516637ba9acbbb062a
   specs:
     git_hooks (0.1.0)
       rails (~> 5.2.3)
