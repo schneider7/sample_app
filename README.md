@@ -40,3 +40,9 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+>>>>>>>>>>>>>>>>>>>>>>
+
+THIS IS ME INTENTIONALLY MODIFYING THE README SO THAT IT SHOWS UP AS BEING UNEVEN WITH MASTER
+
+>>>>>>>>>>>>>>>>>>>>>>
