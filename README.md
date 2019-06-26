@@ -40,3 +40,12 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Literally just another modification for the purposes of making this branch different from master
+
+Tweak Readme
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
